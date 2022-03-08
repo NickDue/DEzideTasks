@@ -1,4 +1,4 @@
-
+package dezide;
 public class Run {
     private static double time, money;
     private static Model model;
@@ -10,6 +10,7 @@ public class Run {
                     1st Argument: Time measures in minutes\s
                     2nd Argument: Money cost\s
                     3rd Argument: Model identifier""");
+            return;
         }
         CostConverter converter = new CostConverter(args);
         if (args.length == 3)

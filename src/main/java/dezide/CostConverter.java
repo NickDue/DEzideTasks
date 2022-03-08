@@ -1,3 +1,5 @@
+package dezide;
+
 public class CostConverter {
     private final double time;
     private final double money;
@@ -15,7 +17,6 @@ public class CostConverter {
 
     public double ConvertCost(boolean custom){
         double increase = model.ConvertCustomValues();
-        System.out.println(increase);
         double timeInHours = time / 60;
         return (timeInHours * model.value + money) * (custom? increase: 1);
     }

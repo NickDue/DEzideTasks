@@ -1,3 +1,5 @@
+package dezide;
+
 public class ModelHandler {
 
     public Model detemineModel(String name){

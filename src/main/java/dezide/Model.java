@@ -1,3 +1,5 @@
+package dezide;
+
 public enum Model {
         GLOBAL("Global", 300, "low", "high"),
         MODEL1234("model1234", 500, "high", "medium");
