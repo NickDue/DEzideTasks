@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dezide.ModelHandlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-09T08:58:41" hostname="h343.aau1x-2.klient.slv.site.aau.dk" time="0.023">
+  <properties/>
+  <testcase name="Known model &quot;Model1234&quot; should return Model1234" classname="dezide.ModelHandlerTest" time="0.02"/>
+  <testcase name="Unknown or null model returns the global model" classname="dezide.ModelHandlerTest" time="0.001"/>
+  <testcase name="The model input should not be case sensitive" classname="dezide.ModelHandlerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

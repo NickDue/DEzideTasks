@@ -8,13 +8,6 @@ targetCompatibility = 17
 
 group 'org.example'
 
-sourceSets {
-    main {
-        java {
-
-        }
-    }
-}
 
 mainClassName = "dezide.Run"
 

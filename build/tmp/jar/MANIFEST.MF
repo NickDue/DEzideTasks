@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+
+Name: costconverter
+Main-Class: dezide.Run
+
