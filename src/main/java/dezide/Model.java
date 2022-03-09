@@ -48,5 +48,9 @@ public enum Model {
     public String getInconvenience() {
         return inconvenience;
     }
+
+    public int getValue() {
+        return value;
+    }
 }
 
