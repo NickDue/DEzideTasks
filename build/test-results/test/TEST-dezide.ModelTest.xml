@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dezide.ModelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-09T09:37:50" hostname="h343.aau1x-2.klient.slv.site.aau.dk" time="0.02">
+  <properties/>
+  <testcase name="Each 'Medium' value will increase the multiplier by 1" classname="dezide.ModelTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

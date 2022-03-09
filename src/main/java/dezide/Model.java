@@ -40,5 +40,13 @@ public enum Model {
     public void setRisk(String risk) {
         this.risk = risk;
     }
+
+    public String getRisk() {
+        return risk;
+    }
+
+    public String getInconvenience() {
+        return inconvenience;
+    }
 }
 
