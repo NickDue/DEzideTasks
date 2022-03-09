@@ -64,7 +64,7 @@ public class ModelTest {
     }
 
     @Test
-    @DisplayName("Each 'Medium' value will increase the multiplier by 1")
+    @DisplayName("Each 'High' value will increase the multiplier by 1")
     void TestHighValueIncrease(){
         DecimalFormat df = new DecimalFormat("0.0");
         model = Model.MODEL1234;
@@ -77,6 +77,16 @@ public class ModelTest {
 
         model.setRisk("high");
         assertEquals("3,0", df.format(model.ConvertCustomValues()));
+    }
+
+    @Test
+    @DisplayName("Each 'None' value will not increase the multiplier")
+    void TestNoneValueIncrease(){
+        model = Model.MODEL1234;
+        model.setInconvenience("none");
+        model.setRisk("none");
+        assertEquals(1, model.ConvertCustomValues());
+
     }
 
 }
