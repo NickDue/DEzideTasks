@@ -6,7 +6,7 @@ public class Run {
     public static void main(String[] args) {
         if(args.length < 3){
             System.out.println("""
-                    Not enough arguments, need at least three\s
+                    Not enough arguments, need at least three:\s
                     1st Argument: Time measures in minutes\s
                     2nd Argument: Money cost\s
                     3rd Argument: Model identifier""");

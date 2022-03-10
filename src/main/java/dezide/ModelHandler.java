@@ -8,7 +8,7 @@ public class ModelHandler {
         }
         name = name.toLowerCase();
         for (Model m: Model.values()) {
-            if (m.name.toLowerCase().equals(name))
+            if (m.getName().toLowerCase().equals(name))
                 return m;
         }
         return Model.GLOBAL;

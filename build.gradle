@@ -5,8 +5,9 @@ plugins {
 
 sourceCompatibility = 17
 targetCompatibility = 17
+apply plugin: 'java-library'
 
-group 'org.example'
+archivesBaseName = 'costconverter'
 
 
 mainClassName = "dezide.Run"
@@ -25,11 +26,11 @@ test {
     useJUnitPlatform()
 }
 
+
 jar {
     manifest {
         attributes(
-                'Main-Class': 'dezide.Run',
-                archiveBaseName = 'costconverter'
+                'Main-Class': mainClassName
         )
     }
 }

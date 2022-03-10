@@ -34,10 +34,7 @@ public class CostConverter {
         switch (identifier) {
             case "inconvenience" -> this.model.setInconvenience(value);
             case "risk" -> this.model.setRisk(value);
-            default -> {
-                System.out.printf("Invalid custom parameter %s \n", identifier);
-                System.exit(1);
-            }
+            default -> System.out.printf("Invalid custom parameter %s \n", identifier);
         }
     }
 
